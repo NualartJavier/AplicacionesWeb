@@ -1,0 +1,83 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+body{
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
+background-size: cover;
+background-attachment: fixed;
+}
+header{
+  text-align: center;
+  width: 
+  padding: 19px 50px;
+  margin-top: 30px;
+  position: static;
+  border: 6px solid white;
+}
+main {  
+  margin: 50px;
+  display: inline-block;
+}
+h1{
+    font-family: "Lucida Console";
+    float: right;
+    font-size: 100px;
+  margin-top: 100px;
+  margin-right: 90px;
+  width: 400px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 4px #000000;
+}
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 600px;
+    display: inline;
+    background-color: #FFFF;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: right;
+    font-style: italic;
+}
+
+
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+li {
+    float: left;
+    font-family: "Lucida Console";
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #A4A4A4;
+
+}
+.active{
+    background-color:gray;
+}
